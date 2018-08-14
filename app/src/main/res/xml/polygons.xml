@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<array  name="Polygons"
+        type="Polygon"
+        package="ar.wargus.gszirzdovvdetection.mapObjects."
+        size="35">
+    <!--CORRECT-->
+    <Polygon    name="OuterPolygon1"
+                package="ar.wargus.gszirzdovvdetection.mapObjects.">
+        <array  name="NewPoints"
+                type="Point"
+                package="ar.wargus.gszirzdovvdetection.mapObjects."
+                size="6">
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">2460</Integer>
+                <Integer name="Y">1317</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">2427</Integer>
+                <Integer name="Y">1300</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">2975</Integer>
+                <Integer name="Y">1032</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3355</Integer>
+                <Integer name="Y">841</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3389</Integer>
+                <Integer name="Y">858</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3009</Integer>
+                <Integer name="Y">1049</Integer>
+            </Point>
+        </array>
+    </Polygon>
+    <!--CORRECT-->
+    <Polygon    name="OuterPolygon2"
+                package="ar.wargus.gszirzdovvdetection.mapObjects.">
+        <array  name="NewPoints"
+                type="Point"
+                package="ar.wargus.gszirzdovvdetection.mapObjects."
+                size="4">
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3455</Integer>
+                <Integer name="Y">832</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3421</Integer>
+                <Integer name="Y">815</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">4130</Integer>
+                <Integer name="Y">458</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">4164</Integer>
+                <Integer name="Y">474</Integer>
+            </Point>
+        </array>
+    </Polygon>
+    <!--CORRECT-->
+    <Polygon    name="OuterPolygon3"
+                package="ar.wargus.gszirzdovvdetection.mapObjects.">
+        <array  name="NewPoints"
+                type="Point"
+                package="ar.wargus.gszirzdovvdetection.mapObjects."
+                size="4">
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">1452</Integer>
+                <Integer name="Y">2079</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">1316</Integer>
+                <Integer name="Y">2012</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">1349</Integer>
+                <Integer name="Y">1995</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">1485</Integer>
+                <Integer name="Y">2062</Integer>
+            </Point>
+        </array>
+    </Polygon>
+    <!--CORRECT-->
+    <Polygon    name="OuterPolygon4"
+                package="ar.wargus.gszirzdovvdetection.mapObjects.">
+        <array  name="NewPoints"
+                type="Point"
+                package="ar.wargus.gszirzdovvdetection.mapObjects."
+                size="19">
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">2075</Integer>
+                <Integer name="Y">2493</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">879</Integer>
+                <Integer name="Y">2071</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">1179</Integer>
+                <Integer name="Y">1921</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">1212</Integer>
+                <Integer name="Y">1938</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">953</Integer>
+                <Integer name="Y">2068</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">2069</Integer>
+                <Integer name="Y">2462</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3831</Integer>
+                <Integer name="Y">1587</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3023</Integer>
+                <Integer name="Y">1168</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3928</Integer>
+                <Integer name="Y">720</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">4799</Integer>
+                <Integer name="Y">334</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">4631</Integer>
+                <Integer name="Y">246</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">4224</Integer>
+                <Integer name="Y">451</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">4190</Integer>
+                <Integer name="Y">434</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">4631</Integer>
+                <Integer name="Y">211</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">4868</Integer>
+                <Integer name="Y">335</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3960</Integer>
+                <Integer name="Y">738</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3090</Integer>
+                <Integer name="Y">1168</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3898</Integer>
+                <Integer name="Y">1587</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3881</Integer>
+                <Integer name="Y">1595</Integer>
+            </Point>
+        </array>
+    </Polygon>
+    <!--CORRECT-->
+    <Polygon    name="OuterPolygon5"
+                package="ar.wargus.gszirzdovvdetection.mapObjects.">
+        <array  name="NewPoints"
+                type="Point"
+                package="ar.wargus.gszirzdovvdetection.mapObjects."
+                size="4">
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">1656</Integer>
+                <Integer name="Y">2181</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">1505</Integer>
+                <Integer name="Y">2105</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">1539</Integer>
+                <Integer name="Y">2088</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">1688</Integer>
+                <Integer name="Y">2165</Integer>
+            </Point>
+        </array>
+    </Polygon>
+    <!--CORRECT-->
+    <Polygon    name="OuterPolygon6"
+                package="ar.wargus.gszirzdovvdetection.mapObjects.">
+        <array  name="NewPoints"
+                type="Point"
+                package="ar.wargus.gszirzdovvdetection.mapObjects."
+                size="4">
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">1656</Integer>
+                <Integer name="Y">2181</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">1505</Integer>
+                <Integer name="Y">2105</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">1539</Integer>
+                <Integer name="Y">2088</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">1688</Integer>
+                <Integer name="Y">2165</Integer>
+            </Point>
+        </array>
+    </Polygon>
+    <!--CORRECT-->
+    <Polygon    name="OuterPolygon7"
+                package="ar.wargus.gszirzdovvdetection.mapObjects.">
+        <array  name="NewPoints"
+                type="Point"
+                package="ar.wargus.gszirzdovvdetection.mapObjects."
+                size="4">
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">2746</Integer>
+                <Integer name="Y">1468</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">2671</Integer>
+                <Integer name="Y">1430</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">2689</Integer>
+                <Integer name="Y">1422</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">2763</Integer>
+                <Integer name="Y">1460</Integer>
+            </Point>
+        </array>
+    </Polygon>
+    <!--CORRECT-->
+    <Polygon    name="OuterPolygon8"
+                package="ar.wargus.gszirzdovvdetection.mapObjects.">
+        <array  name="NewPoints"
+            type="Point"
+            package="ar.wargus.gszirzdovvdetection.mapObjects."
+            size="4">
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">1681</Integer>
+                <Integer name="Y">2168</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">1677</Integer>
+                <Integer name="Y">2167</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">2926</Integer>
+                <Integer name="Y">1541</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">2929</Integer>
+                <Integer name="Y">1543</Integer>
+            </Point>
+        </array>
+    </Polygon>
+    <!--CORRECT-->
+    <Polygon    name="OuterPolygon9"
+                package="ar.wargus.gszirzdovvdetection.mapObjects.">
+        <array  name="NewPoints"
+            type="Point"
+            package="ar.wargus.gszirzdovvdetection.mapObjects."
+            size="4">
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">2916</Integer>
+                <Integer name="Y">1548</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">2440</Integer>
+                <Integer name="Y">1306</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">2444</Integer>
+                <Integer name="Y">1304</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">2919</Integer>
+                <Integer name="Y">1546</Integer>
+            </Point>
+        </array>
+    </Polygon>
+<!---->
+    <Polygon    package="ar.wargus.gszirzdovvdetection.mapObjects.">
+        <array  name="NewPoints"
+                type="Point"
+                package="ar.wargus.gszirzdovvdetection.mapObjects."
+                size="4">
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">1098</Integer>
+                <Integer name="Y">2125</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">1081</Integer>
+                <Integer name="Y">2116</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">1117</Integer>
+                <Integer name="Y">2099</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">1134</Integer>
+                <Integer name="Y">2107</Integer>
+            </Point>
+        </array>
+    </Polygon>
+<!---->
+    <Polygon    package="ar.wargus.gszirzdovvdetection.mapObjects.">
+        <array  name="NewPoints"
+                type="Point"
+                package="ar.wargus.gszirzdovvdetection.mapObjects."
+                size="4">
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">1174</Integer>
+                <Integer name="Y">2085</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">1157</Integer>
+                <Integer name="Y">2076</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">1196</Integer>
+                <Integer name="Y">2057</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">1213</Integer>
+                <Integer name="Y">2065</Integer>
+            </Point>
+        </array>
+    </Polygon>
+<!---->
+    <Polygon    package="ar.wargus.gszirzdovvdetection.mapObjects.">
+        <array  name="NewPoints"
+                type="Point"
+                package="ar.wargus.gszirzdovvdetection.mapObjects."
+                size="4">
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">1249</Integer>
+                <Integer name="Y">2046</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">1231</Integer>
+                <Integer name="Y">2037</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">1315</Integer>
+                <Integer name="Y">1995</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">1332</Integer>
+                <Integer name="Y">2003</Integer>
+            </Point>
+        </array>
+    </Polygon>
+<!---->
+    <Polygon    package="ar.wargus.gszirzdovvdetection.mapObjects.">
+        <array  name="NewPoints"
+                type="Point"
+                package="ar.wargus.gszirzdovvdetection.mapObjects."
+                size="4">
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">1271</Integer>
+                <Integer name="Y">2124</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">1173</Integer>
+                <Integer name="Y">2078</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">1189</Integer>
+                <Integer name="Y">2069</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">1287</Integer>
+                <Integer name="Y">2115</Integer>
+            </Point>
+        </array>
+    </Polygon>
+<!---->
+    <Polygon    package="ar.wargus.gszirzdovvdetection.mapObjects.">
+        <array  name="NewPoints"
+                type="Point"
+                package="ar.wargus.gszirzdovvdetection.mapObjects."
+                size="4">
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">1203</Integer>
+                <Integer name="Y">2165</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">1186</Integer>
+                <Integer name="Y">2157</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">1411</Integer>
+                <Integer name="Y">2044</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">1428</Integer>
+                <Integer name="Y">2053</Integer>
+            </Point>
+        </array>
+    </Polygon>
+<!---->
+    <Polygon    package="ar.wargus.gszirzdovvdetection.mapObjects.">
+        <array  name="NewPoints"
+                type="Point"
+                package="ar.wargus.gszirzdovvdetection.mapObjects."
+                size="4">
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">2150</Integer>
+                <Integer name="Y">2430</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">1649</Integer>
+                <Integer name="Y">2179</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">1666</Integer>
+                <Integer name="Y">2171</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">2167</Integer>
+                <Integer name="Y">2421</Integer>
+            </Point>
+        </array>
+    </Polygon>
+<!---->
+    <Polygon    package="ar.wargus.gszirzdovvdetection.mapObjects.">
+        <array  name="NewPoints"
+                type="Point"
+                package="ar.wargus.gszirzdovvdetection.mapObjects."
+                size="4">
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">2338</Integer>
+                <Integer name="Y">2346</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">1826</Integer>
+                <Integer name="Y">2090</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">1843</Integer>
+                <Integer name="Y">2082</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">2354</Integer>
+                <Integer name="Y">2337</Integer>
+            </Point>
+        </array>
+    </Polygon>
+<!---->
+    <Polygon    package="ar.wargus.gszirzdovvdetection.mapObjects.">
+        <array  name="NewPoints"
+                type="Point"
+                package="ar.wargus.gszirzdovvdetection.mapObjects."
+                size="4">
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">2524</Integer>
+                <Integer name="Y">2252</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">2013</Integer>
+                <Integer name="Y">1997</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">2030</Integer>
+                <Integer name="Y">1989</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">2541</Integer>
+                <Integer name="Y">2244</Integer>
+            </Point>
+        </array>
+    </Polygon>
+<!---->
+    <Polygon    package="ar.wargus.gszirzdovvdetection.mapObjects.">
+        <array  name="NewPoints"
+                type="Point"
+                package="ar.wargus.gszirzdovvdetection.mapObjects."
+                size="4">
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">2711</Integer>
+                <Integer name="Y">2159</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">2199</Integer>
+                <Integer name="Y">1904</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">2216</Integer>
+                <Integer name="Y">1895</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">2727</Integer>
+                <Integer name="Y">2150</Integer>
+            </Point>
+        </array>
+    </Polygon>
+<!---->
+    <Polygon    package="ar.wargus.gszirzdovvdetection.mapObjects.">
+        <array  name="NewPoints"
+                type="Point"
+                package="ar.wargus.gszirzdovvdetection.mapObjects."
+                size="4">
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">2897</Integer>
+                <Integer name="Y">2066</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">2386</Integer>
+                <Integer name="Y">1810</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">2402</Integer>
+                <Integer name="Y">1802</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">2914</Integer>
+                <Integer name="Y">2057</Integer>
+            </Point>
+        </array>
+    </Polygon>
+<!---->
+    <Polygon    package="ar.wargus.gszirzdovvdetection.mapObjects.">
+        <array  name="NewPoints"
+                type="Point"
+                package="ar.wargus.gszirzdovvdetection.mapObjects."
+                size="4">
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3075</Integer>
+                <Integer name="Y">1976</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">2564</Integer>
+                <Integer name="Y">1721</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">2581</Integer>
+                <Integer name="Y">1713</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3092</Integer>
+                <Integer name="Y">1968</Integer>
+            </Point>
+        </array>
+    </Polygon>
+<!---->
+    <Polygon    package="ar.wargus.gszirzdovvdetection.mapObjects.">
+        <array  name="NewPoints"
+                type="Point"
+                package="ar.wargus.gszirzdovvdetection.mapObjects."
+                size="4">
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3256</Integer>
+                <Integer name="Y">1888</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">2745</Integer>
+                <Integer name="Y">1633</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">2762</Integer>
+                <Integer name="Y">1625</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3273</Integer>
+                <Integer name="Y">1880</Integer>
+            </Point>
+        </array>
+    </Polygon>
+<!---->
+    <Polygon    package="ar.wargus.gszirzdovvdetection.mapObjects.">
+        <array  name="NewPoints"
+                type="Point"
+                package="ar.wargus.gszirzdovvdetection.mapObjects."
+                size="4">
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3430</Integer>
+                <Integer name="Y">1802</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">2919</Integer>
+                <Integer name="Y">1546</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">2936</Integer>
+                <Integer name="Y">1538</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3447</Integer>
+                <Integer name="Y">1793</Integer>
+            </Point>
+        </array>
+    </Polygon>
+<!---->
+    <Polygon    package="ar.wargus.gszirzdovvdetection.mapObjects.">
+        <array  name="NewPoints"
+                type="Point"
+                package="ar.wargus.gszirzdovvdetection.mapObjects."
+                size="8">
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3202</Integer>
+                <Integer name="Y">1679</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3186</Integer>
+                <Integer name="Y">1671</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3391</Integer>
+                <Integer name="Y">1570</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3037</Integer>
+                <Integer name="Y">1393</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">2957</Integer>
+                <Integer name="Y">1433</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">2940</Integer>
+                <Integer name="Y">1425</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3037</Integer>
+                <Integer name="Y">1376</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3425</Integer>
+                <Integer name="Y">1571</Integer>
+            </Point>
+        </array>
+    </Polygon>
+<!---->
+    <Polygon    package="ar.wargus.gszirzdovvdetection.mapObjects.">
+        <array  name="NewPoints"
+                type="Point"
+                package="ar.wargus.gszirzdovvdetection.mapObjects."
+                size="4">
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">2825</Integer>
+                <Integer name="Y">1500</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">2808</Integer>
+                <Integer name="Y">1491</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">2901</Integer>
+                <Integer name="Y">1444</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">2918</Integer>
+                <Integer name="Y">1453</Integer>
+            </Point>
+        </array>
+    </Polygon>
+<!---->
+    <Polygon    package="ar.wargus.gszirzdovvdetection.mapObjects.">
+        <array  name="NewPoints"
+                type="Point"
+                package="ar.wargus.gszirzdovvdetection.mapObjects."
+                size="6">
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3243</Integer>
+                <Integer name="Y">1434</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3128</Integer>
+                <Integer name="Y">1378</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3289</Integer>
+                <Integer name="Y">1296</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3306</Integer>
+                <Integer name="Y">1304</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3162</Integer>
+                <Integer name="Y">1378</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3259</Integer>
+                <Integer name="Y">1426</Integer>
+            </Point>
+        </array>
+    </Polygon>
+<!---->
+    <Polygon    package="ar.wargus.gszirzdovvdetection.mapObjects.">
+        <array  name="NewPoints"
+                type="Point"
+                package="ar.wargus.gszirzdovvdetection.mapObjects."
+                size="4">
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3364</Integer>
+                <Integer name="Y">1494</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3280</Integer>
+                <Integer name="Y">1452</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3297</Integer>
+                <Integer name="Y">1444</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3381</Integer>
+                <Integer name="Y">1485</Integer>
+            </Point>
+        </array>
+    </Polygon>
+<!---->
+    <Polygon    package="ar.wargus.gszirzdovvdetection.mapObjects.">
+        <array  name="NewPoints"
+                type="Point"
+                package="ar.wargus.gszirzdovvdetection.mapObjects."
+                size="4">
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3312</Integer>
+                <Integer name="Y">1460</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3295</Integer>
+                <Integer name="Y">1452</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3446</Integer>
+                <Integer name="Y">1375</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3463</Integer>
+                <Integer name="Y">1384</Integer>
+            </Point>
+        </array>
+    </Polygon>
+<!---->
+    <Polygon    package="ar.wargus.gszirzdovvdetection.mapObjects.">
+        <array  name="NewPoints"
+                type="Point"
+                package="ar.wargus.gszirzdovvdetection.mapObjects."
+                size="6">
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3476</Integer>
+                <Integer name="Y">1548</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3406</Integer>
+                <Integer name="Y">1514</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3423</Integer>
+                <Integer name="Y">1506</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3475</Integer>
+                <Integer name="Y">1531</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3610</Integer>
+                <Integer name="Y">1459</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3628</Integer>
+                <Integer name="Y">1467</Integer>
+            </Point>
+        </array>
+    </Polygon>
+    <!---->
+    <Polygon    package="ar.wargus.gszirzdovvdetection.mapObjects.">
+        <array  name="NewPoints"
+                type="Point"
+                package="ar.wargus.gszirzdovvdetection.mapObjects."
+                size="8">
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3316</Integer>
+                <Integer name="Y">1029</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3227</Integer>
+                <Integer name="Y">983</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3343</Integer>
+                <Integer name="Y">924</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3365</Integer>
+                <Integer name="Y">935</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3348</Integer>
+                <Integer name="Y">943</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3343</Integer>
+                <Integer name="Y">941</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3260</Integer>
+                <Integer name="Y">983</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3333</Integer>
+                <Integer name="Y">1020</Integer>
+            </Point>
+        </array>
+    </Polygon>
+<!---->
+    <Polygon    package="ar.wargus.gszirzdovvdetection.mapObjects.">
+        <array  name="NewPoints"
+                type="Point"
+                package="ar.wargus.gszirzdovvdetection.mapObjects."
+                size="4">
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3419</Integer>
+                <Integer name="Y">978</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3393</Integer>
+                <Integer name="Y">965</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3410</Integer>
+                <Integer name="Y">957</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3436</Integer>
+                <Integer name="Y">969</Integer>
+            </Point>
+        </array>
+    </Polygon>
+<!---->
+    <Polygon    package="ar.wargus.gszirzdovvdetection.mapObjects.">
+        <array  name="NewPoints"
+                type="Point"
+                package="ar.wargus.gszirzdovvdetection.mapObjects."
+                size="4">
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3497</Integer>
+                <Integer name="Y">942</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3412</Integer>
+                <Integer name="Y">899</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3429</Integer>
+                <Integer name="Y">891</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3514</Integer>
+                <Integer name="Y">933</Integer>
+            </Point>
+        </array>
+    </Polygon>
+<!---->
+    <Polygon    package="ar.wargus.gszirzdovvdetection.mapObjects.">
+        <array  name="NewPoints"
+                type="Point"
+                package="ar.wargus.gszirzdovvdetection.mapObjects."
+                size="4">
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3603</Integer>
+                <Integer name="Y">898</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3457</Integer>
+                <Integer name="Y">826</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3473</Integer>
+                <Integer name="Y">818</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3620</Integer>
+                <Integer name="Y">889</Integer>
+            </Point>
+        </array>
+    </Polygon>
+<!---->
+    <Polygon    package="ar.wargus.gszirzdovvdetection.mapObjects.">
+        <array  name="NewPoints"
+                type="Point"
+                package="ar.wargus.gszirzdovvdetection.mapObjects."
+                size="4">
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3957</Integer>
+                <Integer name="Y">722</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3812</Integer>
+                <Integer name="Y">650</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3829</Integer>
+                <Integer name="Y">641</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">3974</Integer>
+                <Integer name="Y">714</Integer>
+            </Point>
+        </array>
+    </Polygon>
+<!---->
+    <Polygon    package="ar.wargus.gszirzdovvdetection.mapObjects.">
+        <array  name="NewPoints"
+                type="Point"
+                package="ar.wargus.gszirzdovvdetection.mapObjects."
+                size="4">
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">4300</Integer>
+                <Integer name="Y">565</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">4187</Integer>
+                <Integer name="Y">511</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">4203</Integer>
+                <Integer name="Y">502</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">4317</Integer>
+                <Integer name="Y">556</Integer>
+            </Point>
+        </array>
+    </Polygon>
+    <!---->
+    <Polygon    package="ar.wargus.gszirzdovvdetection.mapObjects.">
+        <array  name="NewPoints"
+                type="Point"
+                package="ar.wargus.gszirzdovvdetection.mapObjects."
+                size="4">
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">4412</Integer>
+                <Integer name="Y">510</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">4304</Integer>
+                <Integer name="Y">460</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">4320</Integer>
+                <Integer name="Y">451</Integer>
+            </Point>
+            <Point package="ar.wargus.gszirzdovvdetection.mapObjects.">
+                <Integer name="X">4428</Integer>
+                <Integer name="Y">501</Integer>
+            </Point>
+        </array>
+    </Polygon>
+
+    <!--<Polygon    package="ar.wargus.gszirzdovvdetection.mapObjects.">-->
+        <!--<array  name="NewPoints"-->
+                <!--type="Point"-->
+                <!--package="ar.wargus.gszirzdovvdetection.mapObjects."-->
+                <!--size="4">-->
+            <!--<Point package="ar.wargus.gszirzdovvdetection.mapObjects.">-->
+                <!--<Integer name="X">3101</Integer>-->
+                <!--<Integer name="Y">1827</Integer>-->
+            <!--</Point>-->
+            <!--<Point package="ar.wargus.gszirzdovvdetection.mapObjects.">-->
+                <!--<Integer name="X">3106</Integer>-->
+                <!--<Integer name="Y">1815</Integer>-->
+            <!--</Point>-->
+            <!--<Point package="ar.wargus.gszirzdovvdetection.mapObjects.">-->
+                <!--<Integer name="X">3106</Integer>-->
+                <!--<Integer name="Y">1861</Integer>-->
+            <!--</Point>-->
+            <!--<Point package="ar.wargus.gszirzdovvdetection.mapObjects.">-->
+                <!--<Integer name="X">3101</Integer>-->
+                <!--<Integer name="Y">1861</Integer>-->
+            <!--</Point>-->
+        <!--</array>-->
+    <!--</Polygon>-->
+
+    <!--<Polygon    package="ar.wargus.gszirzdovvdetection.mapObjects.">-->
+        <!--<array  name="NewPoints"-->
+                <!--type="Point"-->
+                <!--package="ar.wargus.gszirzdovvdetection.mapObjects."-->
+                <!--size="4">-->
+            <!--<Point package="ar.wargus.gszirzdovvdetection.mapObjects.">-->
+                <!--<Integer name="X">2725</Integer>-->
+                <!--<Integer name="Y">1642</Integer>-->
+            <!--</Point>-->
+            <!--<Point package="ar.wargus.gszirzdovvdetection.mapObjects.">-->
+                <!--<Integer name="X">2731</Integer>-->
+                <!--<Integer name="Y">1630</Integer>-->
+            <!--</Point>-->
+            <!--<Point package="ar.wargus.gszirzdovvdetection.mapObjects.">-->
+                <!--<Integer name="X">2731</Integer>-->
+                <!--<Integer name="Y">1676</Integer>-->
+            <!--</Point>-->
+            <!--<Point package="ar.wargus.gszirzdovvdetection.mapObjects.">-->
+                <!--<Integer name="X">2725</Integer>-->
+                <!--<Integer name="Y">1676</Integer>-->
+            <!--</Point>-->
+        <!--</array>-->
+    <!--</Polygon>-->
+
+    <!--<Polygon    package="ar.wargus.gszirzdovvdetection.mapObjects.">-->
+        <!--<array  name="NewPoints"-->
+                <!--type="Point"-->
+                <!--package="ar.wargus.gszirzdovvdetection.mapObjects."-->
+                <!--size="4">-->
+            <!--<Point package="ar.wargus.gszirzdovvdetection.mapObjects.">-->
+                <!--<Integer name="X">2922</Integer>-->
+                <!--<Integer name="Y">1727</Integer>-->
+            <!--</Point>-->
+            <!--<Point package="ar.wargus.gszirzdovvdetection.mapObjects.">-->
+                <!--<Integer name="X">2928</Integer>-->
+                <!--<Integer name="Y">1715</Integer>-->
+            <!--</Point>-->
+            <!--<Point package="ar.wargus.gszirzdovvdetection.mapObjects.">-->
+                <!--<Integer name="X">2928</Integer>-->
+                <!--<Integer name="Y">1761</Integer>-->
+            <!--</Point>-->
+            <!--<Point package="ar.wargus.gszirzdovvdetection.mapObjects.">-->
+                <!--<Integer name="X">2922</Integer>-->
+                <!--<Integer name="Y">1761</Integer>-->
+            <!--</Point>-->
+        <!--</array>-->
+    <!--</Polygon>-->
+
+    <!--<Polygon    package="ar.wargus.gszirzdovvdetection.mapObjects.">-->
+        <!--<array  name="NewPoints"-->
+                <!--type="Point"-->
+                <!--package="ar.wargus.gszirzdovvdetection.mapObjects."-->
+                <!--size="4">-->
+            <!--<Point package="ar.wargus.gszirzdovvdetection.mapObjects.">-->
+                <!--<Integer name="X">3183</Integer>-->
+                <!--<Integer name="Y">1477</Integer>-->
+            <!--</Point>-->
+            <!--<Point package="ar.wargus.gszirzdovvdetection.mapObjects.">-->
+                <!--<Integer name="X">3122</Integer>-->
+                <!--<Integer name="Y">1477</Integer>-->
+            <!--</Point>-->
+            <!--<Point package="ar.wargus.gszirzdovvdetection.mapObjects.">-->
+                <!--<Integer name="X">3124</Integer>-->
+                <!--<Integer name="Y">1469</Integer>-->
+            <!--</Point>-->
+            <!--<Point package="ar.wargus.gszirzdovvdetection.mapObjects.">-->
+                <!--<Integer name="X">3181</Integer>-->
+                <!--<Integer name="Y">1469</Integer>-->
+            <!--</Point>-->
+        <!--</array>-->
+    <!--</Polygon>-->
+</array>

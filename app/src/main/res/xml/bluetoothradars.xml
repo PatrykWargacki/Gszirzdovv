@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<array  name="BluetoothRadars"
+        type="BluetoothRadar"
+        package="ar.wargus.gszirzdovvdetection.classes."
+        size="2">
+
+    <BluetoothRadar package="ar.wargus.gszirzdovvdetection.classes.">
+        <Long       name="Identifier">      1</Long>
+        <Integer    name="SignalStrength">  150</Integer>
+        <Integer    name="X_coordinate">    500</Integer>
+        <Integer    name="Y_coordinate">    500</Integer>
+        <Boolean    name="In_object">       false</Boolean>
+        <array      name="Color"
+                    type="Integer"
+                    size="3">
+            <Integer name="red">    0   </Integer>
+            <Integer name="green" > 255 </Integer>
+            <Integer name="blue">   0   </Integer>
+        </array>
+    </BluetoothRadar>
+
+    <BluetoothRadar package="ar.wargus.gszirzdovvdetection.classes.">
+        <Long       name="Identifier">      2</Long>
+        <Integer    name="SignalStrength">  150</Integer>
+        <Integer    name="X_coordinate">    750</Integer>
+        <Integer    name="Y_coordinate">    250</Integer>
+        <Boolean    name="In_object">       false</Boolean>
+        <array      name="Color"
+                    type="Integer"
+                    size="3">
+            <Integer name="red">    255 </Integer>
+            <Integer name="green" > 0   </Integer>
+            <Integer name="blue">   0   </Integer>
+        </array>
+    </BluetoothRadar>
+
+</array>

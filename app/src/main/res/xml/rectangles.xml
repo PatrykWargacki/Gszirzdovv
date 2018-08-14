@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<array  name="Rectangles"
+        type="Rectangle"
+        package="ar.wargus.gszirzdovvdetection.mapObjects."
+        size="3">
+    <Rectangle package="ar.wargus.gszirzdovvdetection.mapObjects.">
+        <Integer name="MinX">310</Integer>
+        <Integer name="MinY">300</Integer>
+        <Integer name="MaxX">410</Integer>
+        <Integer name="MaxY">400</Integer>
+    </Rectangle>
+
+    <Rectangle package="ar.wargus.gszirzdovvdetection.mapObjects.">
+        <Integer name="MinX">560</Integer>
+        <Integer name="MinY">200</Integer>
+        <Integer name="MaxX">610</Integer>
+        <Integer name="MaxY">460</Integer>
+    </Rectangle>
+
+    <Rectangle package="ar.wargus.gszirzdovvdetection.mapObjects.">
+        <Integer name="MinX">630</Integer>
+        <Integer name="MinY">350</Integer>
+        <Integer name="MaxX">690</Integer>
+        <Integer name="MaxY">650</Integer>
+    </Rectangle>
+</array>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <integer name="BluetoothRadar.maxSignalStrength">       300</integer>
+    <integer name="BluetoothRadar.signalLostOverOneUnit">   1</integer>
+    <!--<integer name="BluetoothRadar.maxDistanceToPoint">      100</integer>-->
+
+    <integer name="GridFrag.height">    10</integer>
+    <integer name="GridFrag.width">     10</integer>
+
+    <integer name="Map.height">     2990</integer>
+    <integer name="Map.width">      6520</integer>
+    <integer name="Map.maxOffset">  10  </integer>
+
+    <integer name="Object2D.signalModifier"> 1</integer>
+
+    <!--<array name="color_red">-->
+        <!--<item name="red"    type="Integer"> 0   </item>-->
+        <!--<item name="green"  type="Integer"> 255 </item>-->
+        <!--<item name="blue"   type="Integer"> 0   </item>-->
+    <!--</array>-->
+</resources>

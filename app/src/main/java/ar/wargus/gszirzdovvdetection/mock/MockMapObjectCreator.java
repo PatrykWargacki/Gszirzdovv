@@ -7,6 +7,7 @@ import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.Rect;
 import android.graphics.RectF;
+import android.os.AsyncTask;
 import android.util.Pair;
 
 import org.xmlpull.v1.XmlPullParserException;
@@ -14,6 +15,8 @@ import org.xmlpull.v1.XmlPullParserException;
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Set;
@@ -30,6 +33,8 @@ import ar.wargus.gszirzdovvdetection.mapObjects.Object2D;
 import ar.wargus.gszirzdovvdetection.mapObjects.Point;
 import ar.wargus.gszirzdovvdetection.mapObjects.Polygon;
 import ar.wargus.gszirzdovvdetection.mapObjects.Rectangle;
+import ar.wargus.gszirzdovvdetection.tasks.CalcSIgnalStrengthAsyncTask;
+import ar.wargus.gszirzdovvdetection.tasks.FindCollisionPointsAsyncTask;
 
 public class MockMapObjectCreator{
 	
@@ -39,9 +44,11 @@ public class MockMapObjectCreator{
 //	gdy różne miejsca będą miały podobne wartości co klient wybierz najbliższe względem ostatniej lokacji
 	
 	
-	private static List<Rectangle>  additRects      = new ArrayList<Rectangle>();
-	private static List<Object2D>   additObjects    = new ArrayList<Object2D>();
-	private static List<Line>       additLines   = new ArrayList<Line>();
+	public static List<Rectangle>  additRects      = new ArrayList<Rectangle>();
+	public static List<Object2D>   additObjects    = new ArrayList<Object2D>();
+	
+	public static volatile List<Line>       additLines      = new ArrayList<>();
+	public static volatile List<Line>       sharedLines      = Collections.synchronizedList(new ArrayList<>());
 	
 	/*
 	Use with caution
@@ -51,141 +58,64 @@ public class MockMapObjectCreator{
 	public static void createMap(List<Object2D>         objects,
 	                             List<BluetoothRadar>   radars) {
 		additObjects = objects;
+		List<Pair<Point, Object2D>> sharedPoints = Collections.synchronizedList(new ArrayList<>());
+		
+		FindCollisionPointsAsyncTask findCollisionPointsAsyncTask   = new FindCollisionPointsAsyncTask(sharedLines,
+		                                                                                               sharedPoints);
+		CalcSIgnalStrengthAsyncTask calcSIgnalStrengthAsyncTask     = new CalcSIgnalStrengthAsyncTask(Collections.EMPTY_LIST);
+		
+		findCollisionPointsAsyncTask.execute();
+		calcSIgnalStrengthAsyncTask.execute();
+		
 		Map map = Map.getInstance();
 		
-		for(GridFrag frag: map.getFragments()){
+		for(GridFrag frag: map.getFragments()) {
 			Point fragPoint = new Point(frag.getX_coordinate() + GridFrag.width,
 			                            frag.getY_coordinate() + GridFrag.height);
 			
-			for(BluetoothRadar radar: radars) {
+			for (BluetoothRadar radar : radars) {
 				// dostań środkowe współrzędne
 				Point radarPoint = new Point(radar.getX_coordinate(),
 				                             radar.getY_coordinate());
 				
-				if(Utils.pointPointDistance(fragPoint, radarPoint) > BluetoothRadar.maxDistanceToPoint) continue;
+				if (Utils.pointPointDistance(fragPoint, radarPoint) > BluetoothRadar.maxDistanceToPoint)
+					continue;
 				
 				Line line = new Line(fragPoint,
 				                     radarPoint);
+				
+				sharedLines.add(line);
 				additLines.add(line);
-				List<Pair<Point, Object2D>> points = forLineFindCollisionPoints(line, objects);
+//				List<Pair<Point, Object2D>> points = findCollisionPointsOfLineObjects(line, objects);
+//
+//				int signal_strength = calcSignalStrength(points,
+//				                                         radar.getIn_object(),
+//				                                         radarPoint,
+//				                                         fragPoint);
+//
+//				// jeśli siła sygnału jest to dodaj ją do mapy
+//				if(signal_strength > 0) {
+//					frag.getBluetoothRadarStrengthMap()
+//					    .put(radar.getIdentifier(),
+//					         signal_strength);
+//				}
 				
-				int signal_strength = calcSignalStrength(points,
-				                                         radar.getIn_object(),
-				                                         radarPoint,
-				                                         fragPoint);
-				
-				// jeśli siła sygnału jest to dodaj ją do mapy
-				if(signal_strength > 0) {
-					frag.getBluetoothRadarStrengthMap()
-					    .put(radar.getIdentifier(),
-					         signal_strength);
-				}
+				// poczekaj aż findCollision stworzy punkty
+				while (!sharedLines.isEmpty()) {}
+				calcSIgnalStrengthAsyncTask.setNewValues(new ArrayList<>(sharedPoints),
+				                                         radar,
+				                                         frag);
+				sharedPoints.clear();
 			}
 		}
+		
+		// poczekaj aż calcSIgnalStrength przetworzy wszystkie punkty
+		while(!sharedPoints.isEmpty()) {}
+		findCollisionPointsAsyncTask.shutdown();
+		calcSIgnalStrengthAsyncTask.shutdown();
 	}
 	
-	private static List<Pair<Point, Object2D>> forLineFindCollisionPoints(Line line,
-	                                                                      List<Object2D> objects){
-		List<Pair<Point, Object2D>> points = new ArrayList<Pair<Point, Object2D>>();
-		java.util.Map<Double, Pair<Point, Object2D>> localPoints = new HashMap<Double, Pair<Point, Object2D>>();
-		Set<Double> distances = new TreeSet<>();
-		
-		// znajdz wszystkie punkty kolizji z obiektem
-		for(Object2D object: objects){
-			//sprawdz (w miarę szybko) czy otaczający prostokąt jest w zasięgu nadajnika
-			Rectangle outerRect = object.getOuterRectangle();
-			if(!(Utils.pointPointDistance(outerRect.getMinX(),
-			                              outerRect.getMinY(),
-			                              line.getP2().x,
-			                              line.getP2().y) < BluetoothRadar.maxDistanceToPoint
-			     || Utils.pointPointDistance(outerRect.getMaxX(),
-			                                 outerRect.getMaxY(),
-			                                 line.getP2().x,
-			                                 line.getP2().y) < BluetoothRadar.maxDistanceToPoint
-			     || Utils.pointPointDistance(outerRect.getMaxX(),
-			                                 outerRect.getMinY(),
-			                                 line.getP2().x,
-			                                 line.getP2().y) < BluetoothRadar.maxDistanceToPoint
-			     || Utils.pointPointDistance(outerRect.getMinX(),
-			                                 outerRect.getMaxY(),
-			                                 line.getP2().x,
-			                                 line.getP2().y) < BluetoothRadar.maxDistanceToPoint)) continue;
-			
-			for (Line edge : object.getEdges()) {
-				Point intersectionPoint = Utils.detect(line,
-				                                       edge);
-				if (intersectionPoint == null) continue;
-				
-				double distance = Utils.pointPointDistance(intersectionPoint,
-				                                           line.getP2());
-				distances   .add(distance);
-				localPoints .put(distance, new Pair<Point, Object2D>(intersectionPoint,
-				                                                     object));
-			}
-			
-			if(localPoints.size()>1){
-				for(double d: distances){
-					Point intersectionPoint = localPoints.get(d).first;
-					additRects.add(new Rectangle(intersectionPoint.x - 1,
-					                             intersectionPoint.y - 1,
-					                             intersectionPoint.x + 1,
-					                             intersectionPoint.y + 1));
-					points.add(localPoints.get(d));
-				}
-			}
-			
-			distances   .clear();
-			localPoints .clear();
-		}
-		return points;
-	}
 	
-	private static int calcSignalStrength(List<Pair<Point, Object2D>> points,
-	                                      boolean radarInObject,
-	                                      Point radarPoint,
-	                                      Point fragPoint){
-		double  last_signal_strength    = BluetoothRadar.maxSignalStrength;
-		boolean use_signal_modifier     = radarInObject;
-		Point   last_point              = radarPoint;
-		
-		Pair<Point, Object2D>   last_pair = null;
-		Point                   point;
-		for(Pair<Point, Object2D> pair: points){
-			last_pair   = pair;
-			point       = pair.first;
-			double distance = Utils.pointPointDistance(point,
-			                                           last_point);
-			last_point = point;
-			last_signal_strength = last_signal_strength
-			                       - BluetoothRadar.signalLostOverOneUnit
-			                         * distance;
-			if(use_signal_modifier){ last_signal_strength = last_signal_strength
-			                                                - pair.second.getSignalModifier()
-			                                                  * distance; }
-			use_signal_modifier = !use_signal_modifier;
-		}
-		
-		// oblicz jeszcze od ostatniego punktu do środka fragmentu
-		double distance = Utils.pointPointDistance(fragPoint,
-		                                           last_point);
-		last_signal_strength = last_signal_strength
-		                       - BluetoothRadar.signalLostOverOneUnit
-		                         * distance;
-		
-		// jeśli punkt fragmentu jest wewn innego obiektu uwzględnij jego modifier
-		if(last_pair != null
-		   && use_signal_modifier){
-			last_signal_strength = last_signal_strength
-			                       - last_pair.second.getSignalModifier()
-			                         * distance;
-		}
-		
-		// ostatnie modyfikacje przed dodaniem siły sygnału do mapy
-		return last_signal_strength     < 1
-			   && last_signal_strength  > 0
-		       ? 1
-		       : (int) Math.round(last_signal_strength);
-	}
 	
 	public static Bitmap visalizeMap(List<BluetoothRadar> radars){
 		Map     map     = Map   .getInstance();
